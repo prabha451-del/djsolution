@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dj-sol-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/djSol/DjSolWebPart.js",
+          "manifest": "./src/webparts/djSol/DjSolWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DjSolWebPartStrings": "lib/webparts/djSol/loc/{locale}.js"
+  }
+}

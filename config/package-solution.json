@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "djsolution-client-side-solution",
+    "id": "674ddffa-dd7f-4baa-8d89-951d9d507082",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "djsolution description"
+      },
+      "longDescription": {
+        "default": "djsolution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "djsolution Feature",
+        "description": "The feature that activates elements of the djsolution solution.",
+        "id": "c1ad0765-bf85-4a19-ab14-fe64f0a07d8b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/djsolution.sppkg"
+  }
+}
